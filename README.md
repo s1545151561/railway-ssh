@@ -10,6 +10,20 @@
 ## Deploy Now 🚀
 [![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/nUq8Je?referralCode=49-ICI)
 
+## How to connect
+
+Go to https://dashboard.ngrok.com/tunnels/agents
+
+And click on the agent that corresponds to the railway depoyment created, retrieve the tunnel tcp url
+
+Take the host and port from the tunnel tcp url and connect to it like
+
+```console
+ssh -p <PORT> root@<HOST>
+```
+
+Reference: https://ngrok.com/docs/using-ngrok-with/ssh/
+
 ## Update 🔥
 * Add Stupid Wiki [Here](https://github.com/itzYoungHazn/railway-ssh/wiki)
 * Add Instant OS
